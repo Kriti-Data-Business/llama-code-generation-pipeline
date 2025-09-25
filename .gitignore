@@ -1,0 +1,56 @@
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore
++++ b/.gitignore
+@@ -0,0 +1,52 @@
++# Python
++__pycache__/
++*.py[cod]
++*$py.class
++*.so
++.Python
++build/
++develop-eggs/
++dist/
++downloads/
++eggs/
++.eggs/
++lib/
++lib64/
++parts/
++sdist/
++var/
++wheels/
++*.egg-info/
++.installed.cfg
++*.egg
++MANIFEST
++
++# Virtual environments
++venv/
++env/
++ENV/
++env.bak/
++venv.bak/
++
++# IDEs
++.vscode/
++.idea/
++*.swp
++*.swo
++
++# Temporary files
++temp_exec.py
++*.tmp
++*.temp
++
++# Results (optional - you might want to include these)
++# results/
++
++# OS
++.DS_Store
++.DS_Store?
++._*
++.Spotlight-V100
++.Trashes
++ehthumbs.db
++Thumbs.db
